@@ -40,24 +40,24 @@ def main(args):
 
     if model_name == 'mistralai':
         if args.data_name == "slimorca":
-            df = pd.read_csv(f'{data_path}')
+            df = pd.read_parquet(f'{data_path}')
             
         if args.data_name == "alpaca":
-            df = pd.read_csv(f'{data_path}')
+            df = pd.read_parquet(f'{data_path}')
 
         if args.data_name == "orcamath":
-            df = pd.read_csv(f'{data_path}')
+            df = pd.read_parquet(f'{data_path}')
 
 
     if model_name =='google':
         if args.data_name == "slimorca":
-            df = pd.read_csv(f'{data_path}')
+            df = pd.read_parquet(f'{data_path}')
             
         if args.data_name == "orcamath":
-            df = pd.read_csv(f'{data_path}')
+            df = pd.read_parquet(f'{data_path}')
                                 
         if args.data_name == "alpaca":
-            df = pd.read_csv(f'{data_path}')
+            df = pd.read_parquet(f'{data_path}')
 
         
 
