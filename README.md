@@ -9,7 +9,7 @@ Our experiments leverage a strategic data ordering process applied to several pr
 In our experiments, we employ several data ordering techniques to arrange the training datasets optimally. The data ordering methods used are:
 
 - Random: Shuffles the data randomly.
-- Attention: Orders the data based on attention metrics derived from model runs.
+- Attention: Orders the data based on attention metrics derived from model.
 - Loss: Prioritizes data samples according to the model’s prediction loss.
 - Length: Sorts the data by the tokenized length of the prompt.
 
